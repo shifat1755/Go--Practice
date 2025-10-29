@@ -1,3 +1,4 @@
+package main
 func canFinish(numCourses int, prerequisites [][]int) bool {
     adj :=map[int][]int{}
     for i:=0; i<len(prerequisites);i++{
